@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+    scroll-behavior: smooth !important;
+}    
+
+.cards:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
